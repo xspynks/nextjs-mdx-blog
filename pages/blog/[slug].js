@@ -1,5 +1,6 @@
 import { allPosts } from "contentlayer/generated";
 import { useMDXComponent } from "next-contentlayer/hooks";
+import Header from "components/header.js";
 
 const mdxComponents = {
   h1: (props) => <h1 style={{ background: "red" }}>{props.children}</h1>,
@@ -10,6 +11,7 @@ const BlogPost = (props) => {
 
   return (
     <>
+      <Header />
       <h1>{props.post.title}</h1>
       <Body components={mdxComponents} />
       {/* <pre>{JSON.stringify(props, null, 2)}</pre> */}
