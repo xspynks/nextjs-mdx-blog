@@ -1,0 +1,17 @@
+{
+  "title": "Segundo post!",
+  "body": {
+    "raw": "\n## Segundo post! :)\n",
+    "html": "<h2>Segundo post! :)</h2>"
+  },
+  "_id": "blog/segundo-post.mdx",
+  "_raw": {
+    "sourceFilePath": "blog/segundo-post.mdx",
+    "sourceFileName": "segundo-post.mdx",
+    "sourceFileDir": "blog",
+    "contentType": "mdx",
+    "flattenedPath": "blog/segundo-post"
+  },
+  "type": "Post",
+  "slug": "segundo-post"
+}

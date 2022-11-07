@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../contentlayer.config.js"],
+  "sourcesContent": ["import { defineDocumentType, makeSource } from \"contentlayer/source-files\";\n\nconst computedFields = {\n  slug: {\n    type: \"string\",\n    resolve: (doc) => doc._raw.sourceFileName.replace(/\\.mdx$/, \"\"),\n  },\n};\n\nconst Post = defineDocumentType(() => ({\n  name: \"Post\",\n  filePathPattern: \"blog/*.md\",\n  bodyType: \"mdx\",\n  fields: {\n    title: {\n      type: Post,\n      required: true,\n    },\n    content: {\n      type: \"string\",\n      required: true,\n    },\n  },\n  computedFields,\n}));\n\nexport default makeSource({\n  contentDirPath: \"content\",\n  documentTypes: [Post],\n  mdx: {},\n});\n"],
+  "mappings": ";AAAA,SAAS,oBAAoB,kBAAkB;AAE/C,IAAM,iBAAiB;AAAA,EACrB,MAAM;AAAA,IACJ,MAAM;AAAA,IACN,SAAS,CAAC,QAAQ,IAAI,KAAK,eAAe,QAAQ,UAAU,EAAE;AAAA,EAChE;AACF;AAEA,IAAM,OAAO,mBAAmB,OAAO;AAAA,EACrC,MAAM;AAAA,EACN,iBAAiB;AAAA,EACjB,UAAU;AAAA,EACV,QAAQ;AAAA,IACN,OAAO;AAAA,MACL,MAAM;AAAA,MACN,UAAU;AAAA,IACZ;AAAA,IACA,SAAS;AAAA,MACP,MAAM;AAAA,MACN,UAAU;AAAA,IACZ;AAAA,EACF;AAAA,EACA;AACF,EAAE;AAEF,IAAO,8BAAQ,WAAW;AAAA,EACxB,gBAAgB;AAAA,EAChB,eAAe,CAAC,IAAI;AAAA,EACpB,KAAK,CAAC;AACR,CAAC;",
+  "names": []
+}

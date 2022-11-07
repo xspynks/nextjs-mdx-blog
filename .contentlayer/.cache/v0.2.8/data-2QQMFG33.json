@@ -1,0 +1,48 @@
+{
+  "cacheItemsMap": {
+    "blog/segundo-post.mdx": {
+      "document": {
+        "title": "Segundo post!",
+        "body": {
+          "raw": "\n## Segundo post! :)\n",
+          "html": "<h2>Segundo post! :)</h2>"
+        },
+        "_id": "blog/segundo-post.mdx",
+        "_raw": {
+          "sourceFilePath": "blog/segundo-post.mdx",
+          "sourceFileName": "segundo-post.mdx",
+          "sourceFileDir": "blog",
+          "contentType": "mdx",
+          "flattenedPath": "blog/segundo-post"
+        },
+        "type": "Post",
+        "slug": "segundo-post"
+      },
+      "documentHash": "1667799921790",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "blog/seja-bem-vindo.mdx": {
+      "document": {
+        "title": "Seja bem-vindo. Primeiro post.",
+        "body": {
+          "raw": "\n# Olá, mundo!\n",
+          "html": "<h1>Olá, mundo!</h1>"
+        },
+        "_id": "blog/seja-bem-vindo.mdx",
+        "_raw": {
+          "sourceFilePath": "blog/seja-bem-vindo.mdx",
+          "sourceFileName": "seja-bem-vindo.mdx",
+          "sourceFileDir": "blog",
+          "contentType": "mdx",
+          "flattenedPath": "blog/seja-bem-vindo"
+        },
+        "type": "Post",
+        "slug": "seja-bem-vindo"
+      },
+      "documentHash": "1667795505002",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    }
+  }
+}

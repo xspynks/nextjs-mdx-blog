@@ -1,0 +1,17 @@
+{
+  "title": "Seja bem-vindo. Primeiro post.",
+  "body": {
+    "raw": "\n# Olá, mundo!\n",
+    "html": "<h1>Olá, mundo!</h1>"
+  },
+  "_id": "blog/seja-bem-vindo.mdx",
+  "_raw": {
+    "sourceFilePath": "blog/seja-bem-vindo.mdx",
+    "sourceFileName": "seja-bem-vindo.mdx",
+    "sourceFileDir": "blog",
+    "contentType": "mdx",
+    "flattenedPath": "blog/seja-bem-vindo"
+  },
+  "type": "Post",
+  "slug": "seja-bem-vindo"
+}
