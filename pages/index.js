@@ -4,35 +4,45 @@ import styles from "../styles/Home.module.css";
 import { allPosts } from "contentlayer/generated";
 import Link from "next/link";
 import Header from "../components/header";
+import Footer from "../components/footer";
+import Hero from "../components/hero";
+import styled from "styled-components";
 
 const Home = (props) => {
   return (
     <>
-      <Header />
-      <Head>
-        <title>Rafael de Paula | Full-stack developer</title>
-        <meta name="title" content="Rafael de Paula | Full-stack developer" />
-        <meta
-          name="description"
-          content="I'm a full-stack developer with a passion for learning and sharing knowledge."
-        />
-        <meta
-          name="keywords"
-          content="developer, full stack, react, ruby on rails, dotnet"
-        />
-        <meta name="robots" content="index, follow" />
-        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="language" content="Portuguese" />
-        <meta name="author" content="@rafaeldepauladj" />
-      </Head>
-      <h1>Home</h1>
-      {props.posts.map((post) => {
-        return (
-          <Link legacyBehavior href={"/blog/" + post.slug}>
-            <a>{post.title}</a>
-          </Link>
-        );
-      })}
+      <div className="container">
+        <Header />
+
+        <Head>
+          <title>Rafael de Paula | Full-stack developer</title>
+          <meta name="title" content="Rafael de Paula | Full-stack developer" />
+          <meta
+            name="description"
+            content="I'm a full-stack developer with a passion for learning and sharing knowledge."
+          />
+          <meta
+            name="keywords"
+            content="developer, full stack, react, ruby on rails, dotnet"
+          />
+          <meta name="robots" content="index, follow" />
+          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta name="language" content="Portuguese" />
+          <meta name="author" content="@rafaeldepauladj" />
+        </Head>
+
+        <Hero />
+
+        {props.posts.map((post) => {
+          return (
+            <Link legacyBehavior href={"/blog/" + post.slug}>
+              <a>{post.title}</a>
+            </Link>
+          );
+        })}
+
+        <Footer />
+      </div>
     </>
   );
 };
