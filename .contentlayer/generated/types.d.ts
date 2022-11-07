@@ -14,8 +14,8 @@ export type Post = {
   _raw: Local.RawDocumentData
   type: 'Post'
   title: string
-  /** Markdown file body */
-  body: Markdown
+  /** MDX file body */
+  body: MDX
   slug: string
 }  
 

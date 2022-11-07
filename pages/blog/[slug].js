@@ -6,14 +6,13 @@ const mdxComponents = {
 };
 
 const BlogPost = (props) => {
-  const Component = useMDXComponent(props.post.body.html);
+  const Body = useMDXComponent(props.post.body.code, mdxComponents);
 
   return (
     <>
-      <Component components={mdxComponents} />
       <h1>{props.post.title}</h1>
-      <p>{props.post.body.html}</p>
-      <pre>{JSON.stringify(props, null, 2)}</pre>
+      <Body components={mdxComponents} />
+      {/* <pre>{JSON.stringify(props, null, 2)}</pre> */}
     </>
   );
 };

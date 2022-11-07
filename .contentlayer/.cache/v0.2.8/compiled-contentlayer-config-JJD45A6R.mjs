@@ -8,7 +8,7 @@ var computedFields = {
 };
 var Post = defineDocumentType(() => ({
   name: "Post",
-  filePathPattern: "blog/*.md",
+  filePathPattern: "blog/*.mdx",
   contentType: "mdx",
   fields: {
     title: {
@@ -30,4 +30,4 @@ var contentlayer_config_default = makeSource({
 export {
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-NBGWPILO.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-JJD45A6R.mjs.map

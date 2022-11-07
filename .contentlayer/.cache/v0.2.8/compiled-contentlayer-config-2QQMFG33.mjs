@@ -3,27 +3,25 @@ import { defineDocumentType, makeSource } from "contentlayer/source-files";
 var computedFields = {
   slug: {
     type: "string",
-    resolve: (doc) => doc._raw.sourceFileName.replace(/\.mdx$/, "")
-  }
+    resolve: (doc) => doc._raw.sourceFileName.replace(/\.mdx$/, ""),
+  },
 };
 var Post = defineDocumentType(() => ({
   name: "Post",
   filePathPattern: "blog/*.mdx",
-  bodyType: "mdx",
+  contentType: "mdx",
   fields: {
     title: {
       type: "string",
-      required: true
-    }
+      required: true,
+    },
   },
-  computedFields
+  computedFields,
 }));
 var contentlayer_config_default = makeSource({
   contentDirPath: "content",
   documentTypes: [Post],
-  mdx: {}
+  mdx: {},
 });
-export {
-  contentlayer_config_default as default
-};
+export { contentlayer_config_default as default };
 //# sourceMappingURL=compiled-contentlayer-config-2QQMFG33.mjs.map

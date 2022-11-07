@@ -9,7 +9,7 @@ var computedFields = {
 var Post = defineDocumentType(() => ({
   name: "Post",
   filePathPattern: "blog/*.md",
-  bodyType: "mdx",
+  contentType: "mdx",
   fields: {
     title: {
       type: "string",

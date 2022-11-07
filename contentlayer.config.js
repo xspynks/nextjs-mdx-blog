@@ -10,7 +10,7 @@ const computedFields = {
 const Post = defineDocumentType(() => ({
   name: "Post",
   filePathPattern: "blog/*.mdx",
-  bodyType: "mdx",
+  contentType: "mdx",
   fields: {
     title: {
       type: "string",

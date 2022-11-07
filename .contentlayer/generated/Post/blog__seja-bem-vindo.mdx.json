@@ -2,7 +2,7 @@
   "title": "Seja bem-vindo. Primeiro post.",
   "body": {
     "raw": "\n# Olá, mundo!\n",
-    "html": "<h1>Olá, mundo!</h1>"
+    "code": "var Component=(()=>{var x=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var j=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var l=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),_=(t,n)=>{for(var e in n)r(t,e,{get:n[e],enumerable:!0})},i=(t,n,e,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of j(n))!h.call(t,o)&&o!==e&&r(t,o,{get:()=>n[o],enumerable:!(s=d(n,o))||s.enumerable});return t};var p=(t,n,e)=>(e=t!=null?x(f(t)):{},i(n||!t||!t.__esModule?r(e,\"default\",{value:t,enumerable:!0}):e,t)),b=t=>i(r({},\"__esModule\",{value:!0}),t);var a=l((X,m)=>{m.exports=_jsx_runtime});var C={};_(C,{default:()=>g,frontmatter:()=>M});var c=p(a()),M={title:\"Seja bem-vindo. Primeiro post.\"};function u(t){let n=Object.assign({h1:\"h1\"},t.components);return(0,c.jsx)(n.h1,{children:\"Ol\\xE1, mundo!\"})}function O(t={}){let{wrapper:n}=t.components||{};return n?(0,c.jsx)(n,Object.assign({},t,{children:(0,c.jsx)(u,t)})):u(t)}var g=O;return b(C);})();\n;return Component;"
   },
   "_id": "blog/seja-bem-vindo.mdx",
   "_raw": {

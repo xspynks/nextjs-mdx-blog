@@ -8,17 +8,14 @@ var computedFields = {
 };
 var Post = defineDocumentType(() => ({
   name: "Post",
-  filePathPattern: "blog/*.md",
+  filePathPattern: "blog/*.mdx",
   contentType: "mdx",
   fields: {
     title: {
       type: "string",
       required: true
     },
-    content: {
-      type: "string",
-      required: true
-    }
+    body: {}
   },
   computedFields
 }));
@@ -30,4 +27,4 @@ var contentlayer_config_default = makeSource({
 export {
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-NBGWPILO.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-G2I6BCXW.mjs.map
