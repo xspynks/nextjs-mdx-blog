@@ -3,7 +3,7 @@
     "blog/segundo-post.mdx": {
       "document": {
         "title": "Segundo post!",
-        "date": "2022-08-11T03:00:00.000Z",
+        "date": "08-11-2022",
         "published": false,
         "body": {
           "raw": "\n# Esse é o segundo post! :)\n",
@@ -20,14 +20,14 @@
         "type": "Post",
         "slug": "segundo-post"
       },
-      "documentHash": "1667881914225",
+      "documentHash": "1667882209129",
       "hasWarnings": false,
       "documentTypeName": "Post"
     },
     "blog/seja-bem-vindo.mdx": {
       "document": {
         "title": "Seja bem-vindo. Primeiro post.",
-        "date": "2022-08-11T03:00:00.000Z",
+        "date": "08-11-2022",
         "published": true,
         "body": {
           "raw": "\n# Olá, mundo!\n",

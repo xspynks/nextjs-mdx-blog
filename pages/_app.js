@@ -6,9 +6,11 @@ import Footer from "../components/footer";
 const MyApp = ({ Component, pageProps }) => {
   return (
     <>
-      <Header />
-      <Component {...pageProps} />
-      <Footer />
+      <div className="container">
+        <Header />
+        <Component {...pageProps} />
+        <Footer />
+      </div>
     </>
   );
 };

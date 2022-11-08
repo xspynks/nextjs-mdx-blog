@@ -9,36 +9,34 @@ import Hero from "../components/hero";
 const Home = (props) => {
   return (
     <>
-      <div className="container">
-        <Head>
-          <title>Rafael de Paula | Full-stack developer</title>
-          <meta name="title" content="Rafael de Paula | Full-stack developer" />
-          <meta
-            name="description"
-            content="I'm a full-stack developer with a passion for learning and sharing knowledge."
-          />
-          <meta
-            name="keywords"
-            content="developer, full stack, react, ruby on rails, dotnet"
-          />
-          <meta name="robots" content="index, follow" />
-          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-          <meta name="language" content="Portuguese" />
-          <meta name="author" content="@rafaeldepauladj" />
-        </Head>
+      <Head>
+        <title>Rafael de Paula | Full-stack developer</title>
+        <meta name="title" content="Rafael de Paula | Full-stack developer" />
+        <meta
+          name="description"
+          content="I'm a full-stack developer with a passion for learning and sharing knowledge."
+        />
+        <meta
+          name="keywords"
+          content="developer, full stack, react, ruby on rails, dotnet"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="Portuguese" />
+        <meta name="author" content="@rafaeldepauladj" />
+      </Head>
 
-        <Hero />
+      <Hero />
 
-        {props.posts.map((post) => {
-          if (post.published) {
-            return (
-              <Link legacyBehavior href={"/blog/" + post.slug}>
-                <a>{post.title}</a>
-              </Link>
-            );
-          }
-        })}
-      </div>
+      {props.posts.map((post) => {
+        if (post.isPublished) {
+          return (
+            <Link legacyBehavior href={"/blog/" + post.slug}>
+              <a>{post.title}</a>
+            </Link>
+          );
+        }
+      })}
     </>
   );
 };

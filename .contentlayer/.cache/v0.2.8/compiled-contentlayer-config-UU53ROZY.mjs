@@ -1,13 +1,12 @@
+// contentlayer.config.js
 import { defineDocumentType, makeSource } from "contentlayer/source-files";
-
-const computedFields = {
+var computedFields = {
   slug: {
     type: "string",
-    resolve: (doc) => doc._raw.sourceFileName.replace(/\.mdx$/, ""),
-  },
+    resolve: (doc) => doc._raw.sourceFileName.replace(/\.mdx$/, "")
+  }
 };
-
-const Post = defineDocumentType(() => ({
+var Post = defineDocumentType(() => ({
   name: "Post",
   filePathPattern: "blog/*.mdx",
   contentType: "mdx",
@@ -15,13 +14,16 @@ const Post = defineDocumentType(() => ({
     title: { type: "string", required: true },
     description: { type: "string", required: true },
     publishedAt: { type: "string", required: true },
-    isPublished: { type: "boolean", required: true },
+    isPublished: { type: "boolean", required: true }
   },
-  computedFields,
+  computedFields
 }));
-
-export default makeSource({
+var contentlayer_config_default = makeSource({
   contentDirPath: "content",
   documentTypes: [Post],
-  mdx: {},
+  mdx: {}
 });
+export {
+  contentlayer_config_default as default
+};
+//# sourceMappingURL=compiled-contentlayer-config-UU53ROZY.mjs.map
