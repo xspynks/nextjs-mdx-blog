@@ -30,11 +30,13 @@ const Home = (props) => {
         <Hero />
 
         {props.posts.map((post) => {
-          return (
-            <Link legacyBehavior href={"/blog/" + post.slug}>
-              <a>{post.title}</a>
-            </Link>
-          );
+          if (post.published) {
+            return (
+              <Link legacyBehavior href={"/blog/" + post.slug}>
+                <a>{post.title}</a>
+              </Link>
+            );
+          }
         })}
       </div>
     </>

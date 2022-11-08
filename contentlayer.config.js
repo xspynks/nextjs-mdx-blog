@@ -16,6 +16,14 @@ const Post = defineDocumentType(() => ({
       type: "string",
       required: true,
     },
+    date: {
+      type: "date",
+      required: true,
+    },
+    published: {
+      type: "boolean",
+      required: true,
+    },
   },
   computedFields,
 }));
