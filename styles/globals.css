@@ -2,9 +2,19 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Poppins", sans-serif;
-  background-color: #0d1521;
+  background: rgb(13, 21, 33);
+  background: linear-gradient(
+    180deg,
+    rgba(13, 21, 33, 1) 0%,
+    rgba(15, 28, 45, 1) 100%
+  );
   color: #e8e8e8;
+  font-family: "Roboto Serif", sans-serif;
+  height: 100vw;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 a {
@@ -12,19 +22,15 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.container {
-  max-width: 666px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 ul,
 li {
   list-style: none;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 @media (max-width: 768px) {

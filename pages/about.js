@@ -9,9 +9,9 @@ const About = () => {
           challenges.
         </p>
         <p>
-          I'm currently working as a full-stack developer at{" "}
-          <a href="https://www.4all.com/" target="_blank" rel="noreferrer">
-            4all
+          I'm currently working as a full-stack developer trainee at{" "}
+          <a href="https://www.jalasoft.com/" target="_blank" rel="noreferrer">
+            Jalasoft
           </a>
           .
         </p>

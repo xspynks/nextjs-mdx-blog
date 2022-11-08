@@ -11,7 +11,7 @@ const BlogPost = (props) => {
   return (
     <>
       <h1>{props.post.title}</h1>
-      <p>{props.post.publishedAt}</p>
+      <p>Publicado em: {props.post.publishedAt}</p>
       <Body components={mdxComponents} />
       {/* <pre>{JSON.stringify(props, null, 2)}</pre> */}
     </>
