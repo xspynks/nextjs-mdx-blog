@@ -3,6 +3,7 @@ import styled from "styled-components";
 const Button = styled.div`
   width: 166px;
   height: 40px;
+  margin: 24px auto;
   background-color: #f4d35e;
   color: #0d1521;
   border: #fff1bf solid;
@@ -14,7 +15,7 @@ const Button = styled.div`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   &:hover {
-    background-color: #0d1521;
+    background-color: #344966;
     color: #f4d35e;
     border: #f4d35e solid;
   }

@@ -1,19 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import styled from "styled-components";
 import { allPosts } from "contentlayer/generated";
 import Link from "next/link";
-import Header from "../components/header";
-import Footer from "../components/footer";
 import Hero from "../components/hero";
-import styled from "styled-components";
 
 const Home = (props) => {
   return (
     <>
       <div className="container">
-        <Header />
-
         <Head>
           <title>Rafael de Paula | Full-stack developer</title>
           <meta name="title" content="Rafael de Paula | Full-stack developer" />
@@ -40,8 +36,6 @@ const Home = (props) => {
             </Link>
           );
         })}
-
-        <Footer />
       </div>
     </>
   );
