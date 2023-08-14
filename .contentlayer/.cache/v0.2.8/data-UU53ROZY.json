@@ -1,30 +1,5 @@
 {
   "cacheItemsMap": {
-    "blog/seja-bem-vindo.mdx": {
-      "document": {
-        "title": "Seja bem-vindo. Primeiro post.",
-        "description": "Loremzada",
-        "publishedAt": "08-11-2022",
-        "isPublished": true,
-        "body": {
-          "raw": "\n# Olá, mundo!\n",
-          "code": "var Component=(()=>{var d=Object.create;var r=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)r(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of l(e))!j.call(t,o)&&o!==n&&r(t,o,{get:()=>e[o],enumerable:!(s=h(e,o))||s.enumerable});return t};var f=(t,e,n)=>(n=t!=null?d(x(t)):{},c(e||!t||!t.__esModule?r(n,\"default\",{value:t,enumerable:!0}):n,t)),_=t=>c(r({},\"__esModule\",{value:!0}),t);var m=p((L,a)=>{a.exports=_jsx_runtime});var C={};b(C,{default:()=>g,frontmatter:()=>M});var i=f(m()),M={title:\"Seja bem-vindo. Primeiro post.\",description:\"Loremzada\",publishedAt:\"08-11-2022\",isPublished:!0};function u(t){let e=Object.assign({h1:\"h1\"},t.components);return(0,i.jsx)(e.h1,{children:\"Ol\\xE1, mundo!\"})}function O(t={}){let{wrapper:e}=t.components||{};return e?(0,i.jsx)(e,Object.assign({},t,{children:(0,i.jsx)(u,t)})):u(t)}var g=O;return _(C);})();\n;return Component;"
-        },
-        "_id": "blog/seja-bem-vindo.mdx",
-        "_raw": {
-          "sourceFilePath": "blog/seja-bem-vindo.mdx",
-          "sourceFileName": "seja-bem-vindo.mdx",
-          "sourceFileDir": "blog",
-          "contentType": "mdx",
-          "flattenedPath": "blog/seja-bem-vindo"
-        },
-        "type": "Post",
-        "slug": "seja-bem-vindo"
-      },
-      "documentHash": "1667883065793",
-      "hasWarnings": false,
-      "documentTypeName": "Post"
-    },
     "blog/segundo-post.mdx": {
       "document": {
         "title": "Segundo post!",
@@ -46,7 +21,32 @@
         "type": "Post",
         "slug": "segundo-post"
       },
-      "documentHash": "1667883390405",
+      "documentHash": "1692039981110",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "blog/seja-bem-vindo.mdx": {
+      "document": {
+        "title": "Seja bem-vindo. Primeiro post.",
+        "description": "Loremzada",
+        "publishedAt": "08-11-2022",
+        "isPublished": true,
+        "body": {
+          "raw": "\n# Olá, mundo!\n",
+          "code": "var Component=(()=>{var d=Object.create;var r=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var n in e)r(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of l(e))!j.call(t,o)&&o!==n&&r(t,o,{get:()=>e[o],enumerable:!(s=h(e,o))||s.enumerable});return t};var f=(t,e,n)=>(n=t!=null?d(x(t)):{},c(e||!t||!t.__esModule?r(n,\"default\",{value:t,enumerable:!0}):n,t)),_=t=>c(r({},\"__esModule\",{value:!0}),t);var m=p((L,a)=>{a.exports=_jsx_runtime});var C={};b(C,{default:()=>g,frontmatter:()=>M});var i=f(m()),M={title:\"Seja bem-vindo. Primeiro post.\",description:\"Loremzada\",publishedAt:\"08-11-2022\",isPublished:!0};function u(t){let e=Object.assign({h1:\"h1\"},t.components);return(0,i.jsx)(e.h1,{children:\"Ol\\xE1, mundo!\"})}function O(t={}){let{wrapper:e}=t.components||{};return e?(0,i.jsx)(e,Object.assign({},t,{children:(0,i.jsx)(u,t)})):u(t)}var g=O;return _(C);})();\n;return Component;"
+        },
+        "_id": "blog/seja-bem-vindo.mdx",
+        "_raw": {
+          "sourceFilePath": "blog/seja-bem-vindo.mdx",
+          "sourceFileName": "seja-bem-vindo.mdx",
+          "sourceFileDir": "blog",
+          "contentType": "mdx",
+          "flattenedPath": "blog/seja-bem-vindo"
+        },
+        "type": "Post",
+        "slug": "seja-bem-vindo"
+      },
+      "documentHash": "1692039981110",
       "hasWarnings": false,
       "documentTypeName": "Post"
     }
